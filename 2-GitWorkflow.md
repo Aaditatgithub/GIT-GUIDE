@@ -17,26 +17,26 @@ This is a repository hosted on a remote server (like GitHub, GitLab, or Bitbucke
 It is used for sharing changes with others and for backup.
 
 ## Commands:
-    git add:
+    git add
 Moves changes from the working directory to the staging area.
 Command: git add <file> or git add . (to add all changes).
 
-    git commit:
+    git commit
 Moves changes from the staging area to the local repository.
 A commit represents a snapshot of your project at a certain point in time.
 Command: git commit -m "commit message"
     
-    git push:
+    git push
 Uploads commits from the local repository to the remote repository.
 This is how you share your changes with others or back them up.
 Command: git push <remote> <branch>
     
-    git pull:
+    git pull
 Fetches and merges changes from the remote repository to the local repository.
 This is used to update your local project with changes made by others.
 Command: git pull <remote> <branch>
     
-    git checkout:
+    git checkout
 Switches between different branches or commits.
 Also used to revert changes in the working directory.
 Command: git checkout <branch> or git checkout <commit>
