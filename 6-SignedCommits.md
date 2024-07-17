@@ -1,5 +1,3 @@
-Sure, here's a detailed explanation of signed commits and related topics in Git, along with relevant Git snippets and theoretical context.
-
 ## 1. Introduction to Signed Commits
 
 ### Theory
