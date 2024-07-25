@@ -105,4 +105,26 @@ Restore a file to a specific commit:
 git checkout <commit_hash> -- <file>
 ```
 
+Stashing Changes
+Temporarily save changes in your working directory without committing:
+```bash
+git stash
+```
+Restore the stashed changes:
+```bash
+git stash apply
+```
+View list of stashes:
+```bash
+git stash list
+```
+Apply a specific stash:
+```bash
+git stash apply stash@{n}
+```
+Drop a specific stash:
+```bash
+git stash drop stash@{n}
+```
+
 These concepts cover the fundamental operations involved in managing Git snapshots effectively. Each command snippet provided corresponds to a specific Git action, facilitating clear and organized version control in your projects.
