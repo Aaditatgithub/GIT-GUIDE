@@ -1,0 +1,105 @@
+When working with GitHub, it's essential to understand key terminologies related to both Git (the underlying version control system) and GitHub (the platform that builds on Git). Here's a list of crucial terms:
+
+### 1. **Repository (Repo)**
+   - A storage location for your project files and the history of all changes. Repositories can be public or private.
+   
+### 2. **Commit**
+   - A snapshot of your project at a specific point in time. Each commit has a unique identifier (hash) and includes a message describing the changes made.
+   
+### 3. **Branch**
+   - A separate version of your repository that diverges from the main codebase, allowing you to work on different features or fixes simultaneously.
+   
+### 4. **Main (or Master)**
+   - The default branch in most repositories, where the stable version of the project typically resides.
+   
+### 5. **Pull Request (PR)**
+   - A request to merge changes from one branch into another, often used to propose and review code before incorporating it into the main branch.
+
+### 6. **Fork**
+   - A personal copy of someone else's repository. You can make changes in your forked repository without affecting the original repository.
+
+### 7. **Clone**
+   - A local copy of a repository stored on your computer. You can clone a repository to work on it offline.
+
+### 8. **Push**
+   - Sending your changes (commits) from a local repository to a remote repository on GitHub.
+
+### 9. **Pull**
+   - Fetching the latest changes from the remote repository and merging them into your local repository.
+
+### 10. **Merge**
+   - Combining the changes from one branch into another. A common use case is merging a feature branch into the main branch.
+
+### 11. **Merge Conflict**
+   - Occurs when changes in different branches conflict with each other and Git cannot automatically merge them. Manual resolution is needed.
+
+### 12. **Remote**
+   - A version of your project that is hosted on GitHub or another Git server. It typically refers to the repository URL on GitHub.
+
+### 13. **Issue**
+   - A way to track tasks, bugs, feature requests, or any other work related to a repository. Issues can be assigned to team members and tagged with labels.
+
+### 14. **GitHub Actions**
+   - Automation workflows that help you perform tasks like testing, building, or deploying your code, triggered by events like pushing code or creating a pull request.
+
+### 15. **GitHub Pages**
+   - A feature that lets you host static websites directly from your repository.
+
+### 16. **Tag**
+   - A marker for a specific point in your repository's history, often used to mark releases (e.g., `v1.0`).
+
+### 17. **Gitignore**
+   - A file used to tell Git which files or directories to ignore when committing code (e.g., temporary files, build outputs).
+
+### 18. **Contributor**
+   - Anyone who contributes to a repository, usually by submitting pull requests.
+
+### 19. **Collaborator**
+   - A person with write access to a repository, allowing them to make changes directly.
+
+### 20. **Wiki**
+   - A place in the repository where you can host documentation related to the project.
+
+### 21. **Milestone**
+   - A collection of issues and pull requests that are grouped together to track progress towards a goal or a release.
+
+### 22. **Release**
+   - A version of the project that is packaged and made available for users, usually tagged with a specific version number and release notes.
+
+### 23. **Diff**
+   - A comparison between two sets of files or commits that shows what changes were made.
+
+### 24. **Staging Area (Index)**
+   - The area where changes are placed before committing. Files in the staging area are ready to be committed.
+
+### 25. **SHA (Hash)**
+   - A unique identifier for each commit, often used to refer to specific commits in a repository.
+
+### 26. **Revert**
+   - Undoing changes by creating a new commit that undoes the effects of a previous commit.
+
+### 27. **Rebase**
+   - A way to move or combine a sequence of commits to a new base commit, often used to keep a branch up-to-date or clean up commit history.
+
+### 28. **Squash**
+   - Combining multiple commits into a single commit. This is often done before merging a branch to clean up the commit history.
+
+### 29. **Code Review**
+   - The process of reviewing code changes submitted in a pull request, often by other contributors or maintainers, to ensure quality and consistency.
+
+### 30. **Diff View**
+   - A view that shows the changes between two commits or branches, highlighting what has been added or removed.
+
+### 31. **Blame**
+   - A feature that shows who last modified each line of a file, helping track down the source of changes.
+
+### 32. **Webhook**
+   - A way to send real-time data from one app to another when certain events happen in a repository (e.g., notifying a CI/CD pipeline when new code is pushed).
+
+### 33. **Gist**
+   - A simple way to share snippets of code or text via GitHub. Gists can be public or secret.
+
+### 34. **CI/CD (Continuous Integration/Continuous Deployment)**
+   - The practice of automatically testing, integrating, and deploying code to ensure fast and stable delivery of new features.
+
+Understanding these GitHub terminologies will help you effectively use the platform for version control, collaboration, and project management.
